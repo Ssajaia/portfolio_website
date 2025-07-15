@@ -80,6 +80,14 @@ const projects = [
     image: "/weather.png",
     link: "https://github.com/Ssajaia/Weather-App",
   },
+  {
+    id: 11,
+    name: "DateTime data structure",
+    description:
+      "C++ class which can be used to commit operations on Time, such as calculating time between two date.",
+    image: "/dateTime.svg",
+    link: "https://github.com/Ssajaia/DateTime.git",
+  },
 ];
 
 const Projects = () => {
