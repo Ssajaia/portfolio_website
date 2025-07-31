@@ -88,6 +88,13 @@ const projects = [
     image: "/dateTime.svg",
     link: "https://github.com/Ssajaia/DateTime.git",
   },
+  {
+    id:12,
+    name:"quotes API",
+    description:"API created in nodejs using express, which provides database connection",
+    image:"/quotes.jpg",
+    link:"https://github.com/Ssajaia/Quote_managment_System.git",
+  },
 ];
 
 const Projects = () => {
