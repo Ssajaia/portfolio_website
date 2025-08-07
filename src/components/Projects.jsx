@@ -95,6 +95,13 @@ const projects = [
     image:"/quotes.jpg",
     link:"https://github.com/Ssajaia/Quote_managment_System.git",
   },
+  {
+    id:13,
+    name:"NodeJs auth system",
+    description:"backend system to ensure safe log in/out and registration on website.",
+    image:"/auth.png",
+    link:"https://github.com/Ssajaia/Authentication-API.git"
+  }
 ];
 
 const Projects = () => {
