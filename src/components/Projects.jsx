@@ -3,7 +3,14 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    id: 1,
+    id:1,
+    name:"NodeJs auth system",
+    description:"backend system to ensure safe log in/out and registration on website.",
+    image:"/auth.png",
+    link:"https://github.com/Ssajaia/Authentication-API.git"
+  },
+  {
+    id: 2,
     name: "Bochka Data structure",
     description:
       "Fully functional Data structure which can be used like List written in C#.",
@@ -11,7 +18,7 @@ const projects = [
     link: "https://github.com/Ssajaia/Bochka_DS",
   },
   {
-    id: 2,
+    id: 3,
     name: "Nstring",
     description:
       "new String variant written in C#, which includes methods and paradigms which real string deosn't have.",
@@ -19,7 +26,7 @@ const projects = [
     link: "https://github.com/Ssajaia/CustomStringClass",
   },
   {
-    id: 3,
+    id: 4,
     name: "Bookstore API",
     description:
       "this API is written in GO and can be used for bookstore website.",
@@ -27,14 +34,14 @@ const projects = [
     link: "https://github.com/Ssajaia/go-bookstore",
   },
   {
-    id: 4,
+    id: 5,
     name: "Casino website",
     description: "casino like website, written in pure js/html/css ",
     image: "/casino.jpg",
     link: "https://github.com/Ssajaia/casino",
   },
   {
-    id: 5,
+    id: 6,
     name: "github activity tracker",
     description:
       "github activity tracker is CLI tool which can show, recent merges or commits for desired user, it is written in GO",
@@ -42,7 +49,7 @@ const projects = [
     link: "https://github.com/Ssajaia/Github-activity-tracker",
   },
   {
-    id: 6,
+    id: 7,
     name: "movie API",
     description:
       "basic movie API written in GO using gorrila/mux including CRUD operations",
@@ -50,14 +57,14 @@ const projects = [
     link: "https://github.com/Ssajaia/Movies-API-with-CRUD-functions",
   },
   {
-    id: 7,
+    id: 8,
     name: "recipe App",
     description: "GUI app created with Jframe using java.",
     image: "/recipe-app.jpg",
     link: "https://github.com/Ssajaia/Recipe-app",
   },
   {
-    id: 8,
+    id: 9,
     name: "todo app",
     description:
       "basic task managment application integrated in CLI using pure GO",
@@ -65,7 +72,7 @@ const projects = [
     link: "https://github.com/Ssajaia/Task_tracker_CLI",
   },
   {
-    id: 9,
+    id: 10,
     name: "verification API",
     description:
       "provides verification system for logging website using nodeJS and expressJS",
@@ -73,7 +80,7 @@ const projects = [
     link: "https://github.com/Ssajaia/Task_tracker_CLhttps://github.com/Ssajaia/verificationAPI",
   },
   {
-    id: 10,
+    id: 11,
     name: "weather App",
     description:
       "working C# application which uses openWeather API to track weather in region you provide",
@@ -81,7 +88,7 @@ const projects = [
     link: "https://github.com/Ssajaia/Weather-App",
   },
   {
-    id: 11,
+    id: 12,
     name: "DateTime data structure",
     description:
       "C++ class which can be used to commit operations on Time, such as calculating time between two date.",
@@ -89,19 +96,13 @@ const projects = [
     link: "https://github.com/Ssajaia/DateTime.git",
   },
   {
-    id:12,
+    id:13,
     name:"quotes API",
     description:"API created in nodejs using express, which provides database connection",
     image:"/quotes.jpg",
     link:"https://github.com/Ssajaia/Quote_managment_System.git",
   },
-  {
-    id:13,
-    name:"NodeJs auth system",
-    description:"backend system to ensure safe log in/out and registration on website.",
-    image:"/auth.png",
-    link:"https://github.com/Ssajaia/Authentication-API.git"
-  }
+  
 ];
 
 const Projects = () => {
