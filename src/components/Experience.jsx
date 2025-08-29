@@ -27,6 +27,11 @@ const education = [
     period: "2023-2025",
   },
   {
+    degree:"Computer Science",
+    institution:"Saylor Degree",
+    period:"2025",
+  },
+  {
     degree: "self-taught",
     institution: "Home",
     period: "forever",
