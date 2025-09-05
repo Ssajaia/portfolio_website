@@ -29,13 +29,19 @@ const education = [
   {
     degree:"Computer Science",
     institution:"Saylor Degree",
-    period:"2025",
+    period:"2024-2025",
+  },
+  {
+    degree:"CISCO networking academy",
+    institution:"netacad.com",
+    period:"2025-ongoing"
   },
   {
     degree: "self-taught",
     institution: "Home",
     period: "forever",
   },
+  
 ];
 
 const Experience = () => {
