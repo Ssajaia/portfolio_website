@@ -3,7 +3,6 @@ import LoadingScreen from "./components/LoadingScreen";
 import Hero from "./components/Hero";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
-import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 
@@ -69,15 +68,6 @@ function App() {
           className="min-h-screen py-20"
         >
           <Experience />
-        </section>
-
-        <section
-          id="projects"
-          ref={(el) => (sectionsRef.current[3] = el)}
-          className="min-h-screen py-20"
-        >
-          <Projects />
-        </section>
 
         <section
           id="contact"
