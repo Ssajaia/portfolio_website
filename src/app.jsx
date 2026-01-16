@@ -68,10 +68,11 @@ function App() {
           className="min-h-screen py-20"
         >
           <Experience />
+        </section>
 
         <section
           id="contact"
-          ref={(el) => (sectionsRef.current[4] = el)}
+          ref={(el) => (sectionsRef.current[3] = el)}
           className="min-h-screen py-20"
         >
           <Contact />
