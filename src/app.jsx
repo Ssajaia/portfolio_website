@@ -76,7 +76,7 @@ function App() {
           <Contact />
         </section>
       </main>
-    </div> // This closing tag was missing
+    </div>
   );
 }
 
